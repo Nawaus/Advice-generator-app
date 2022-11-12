@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+  display: flex;
+  background: var(--Dark-Blue);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: var(--Neon-Green);
+  font-family: "Manrope", sans-serif;
+}
+
+.main-text {
+  width: 90%;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  color: var(--Light-Cyan);
+  word-spacing: 3px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  background-color: var(--Dark-Grayish-Blue);
+  height: 370px;
+  width: 580px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.091);
+}
+
+.dice-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice-button button {
+  position: relative;
+  bottom: 35px;
+  background: var(--Neon-Green);
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 1rem;
+  word-spacing: 0.2em;
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--Neon-Green);
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    height: 310px;
+    width: 345px;
+  }
+  .main-text {
+    font-size: 1.2rem;
+  }
+  .attribution {
+    font-size: 0.7rem;
+  }
+}
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  */
