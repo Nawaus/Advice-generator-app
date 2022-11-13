@@ -77,8 +77,6 @@ h3 {
 }
 
 .attribution {
-  display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 1rem;
   word-spacing: 0.2em;
