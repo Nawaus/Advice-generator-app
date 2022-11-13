@@ -48,7 +48,7 @@ h3 {
   height: 370px;
   width: 580px;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.091);
+  box-shadow: rgba(0, 0, 0, 0.364) 0px 3px 30px 4px;
 }
 
 .dice-button {
