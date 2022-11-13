@@ -7,12 +7,13 @@ const init = () => {
         const result = await fetch(`https://api.adviceslip.com/advice`).then(
           (res) => res.json()
         );
-        const Maintext = document.querySelector(".main-text p");
+        const mainText = document.querySelector(".main-text p");
         const idAdviceContent = document.querySelector("span");
         const adviceText = result.slip.advice;
         const idText = result.slip.id;
-        Maintext.textContent = `"${adviceText}"`;
+        mainText.textContent = `"${adviceText}"`;
         idAdviceContent.textContent = idText;
+        console.log(result);
       })();
     } catch (error) {
       console.log(error);
