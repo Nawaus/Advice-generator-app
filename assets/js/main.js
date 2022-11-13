@@ -13,7 +13,6 @@ const init = () => {
         const idText = result.slip.id;
         Maintext.textContent = `"${adviceText}"`;
         idAdviceContent.textContent = idText;
-        console.log(result);
       })();
     } catch (error) {
       console.log(error);
