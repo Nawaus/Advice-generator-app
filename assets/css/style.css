@@ -65,9 +65,21 @@ h3 {
   border-radius: 50%;
   border: none;
   cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.dice-button button:hover {
+  box-shadow: hsla(150, 60%, 60%, 0.672) 0px 3px 30px 4px;
+}
+
+.pattern-divider-mobile {
+  display: none;
 }
 
 .attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
   word-spacing: 0.2em;
   font-family: "Manrope", sans-serif;
@@ -89,5 +101,10 @@ a {
   .attribution {
     font-size: 0.7rem;
   }
+  .pattern-divider-desktop {
+    display: none;
+  }
+  .pattern-divider-mobile {
+    display: block;
+  }
 }
-/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  */
