@@ -17,7 +17,7 @@ const init = () => {
   const diceButton = document.querySelector(".dice-button button");
   diceButton.addEventListener("click", () => {
     try {
-      (async () => updateAdvice())();
+      (async () => await updateAdvice())();
     } catch (error) {
       console.log(error);
       console.log("Sorry, something went wrong with the request");
